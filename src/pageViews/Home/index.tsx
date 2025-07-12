@@ -1,4 +1,5 @@
 import { PageTitle } from '@/components/ui/PageTitle'
+import { Families } from './Families'
 
 export const Home = () => {
   return (
@@ -6,8 +7,9 @@ export const Home = () => {
       <PageTitle>Catálogo</PageTitle>
 
       <section className="px-2">
-        <div className="max-w-wrapper w-full mx-auto pt-8">
+        <div className="lg:max-w-wrapper w-full mx-auto py-8">
           <h2 className="mb-5 text-2xl font-semibold">Resultados</h2>
+          <Families />
         </div>
       </section>
     </>
