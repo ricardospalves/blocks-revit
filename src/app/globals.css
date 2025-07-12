@@ -12,6 +12,7 @@
   --color-accent-secondary: #d835c5;
   --color-muted: #ccc;
   --spacing-wrapper: 83rem;
+  --breakpoint-xs: 36rem;
 }
 
 body {
