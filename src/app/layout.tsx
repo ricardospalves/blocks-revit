@@ -12,6 +12,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <head>
+        <meta name="apple-mobile-web-app-title" content="Blocks Revit" />
+      </head>
+
       <body className="antialiased">{children}</body>
     </html>
   )
