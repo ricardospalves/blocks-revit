@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Blocks Revit
 
-## Getting Started
+![License](https://img.shields.io/badge/license-MIT-green)
 
-First, run the development server:
+Projeto para a [Blocks Revit](https://github.com/blocksrvt).
+
+- [🌐 Site](https://blocksrevit.vercel.app/);
+- [🎨 Layout do projeto](https://www.figma.com/design/xUT0pnECiRfxxaHGj1yaqh/-BLOCKS---TESTE-FRONT-END-?node-id=0-1);
+
+## Tabela de Conteúdos
+
+1. [📋 Requisitos](#-requisitos)
+2. [🔧 Como instalar](#-como-instalar)
+3. [🚀 Rodando o projeto](#-rodando-o-projeto)
+4. [📄 Comandos Úteis](#-comandos-úteis)
+5. [✨ Tecnologias](#-tecnologias)
+6. [📝 Licença](#-licença)
+
+## 📋 Requisitos
+
+Antes de começar, você precisará ter o seguinte instalado:
+
+- [Node.js](https://nodejs.org) (versão 18.x ou superior recomendada);
+- [npm](https://www.npmjs.com/).
+
+## 🔧 Como instalar
+
+1. Clone o repositório:
+
+```bash
+https://github.com/ricardospalves/blocks-revit.git
+
+```
+
+2. Acesse o diretório do projeto:
+
+```bash
+cd blocks-revit
+
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+
+```
+
+## 🚀 Rodando o projeto
+
+Após a instalação das dependências, você pode rodar o projeto localmente com o seguinte comando:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Isso iniciará o servidor de desenvolvimento em [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📄 Comandos úteis
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Desenvolvimento:** `npm run dev` - inicia o servidor local em modo de desenvolvimento;
+- **Construir para produção:** `npm run build` - cria uma versão otimizada para produção;
+- **Rodar a versão de produção localmente:** `npm run start` - inicia o servidor de produção após realizar o build;
+- **Rodar o lint:** `npm run lint` - verifica erros no código com o ESLint;
+- **Rodar o lint e corrigir erros:** `npm run lint:fix` - verifica e corrige automaticamente erros de código quando possível.
 
-## Learn More
+## ✨ Tecnologias
 
-To learn more about Next.js, take a look at the following resources:
+- React;
+- Next.js;
+- Vercel;
+- TypeScript;
+- Tailwind CSS;
+- Tailwind Variants;
+- React Icons;
+- ESLint;
+- Prettier.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Licença
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
