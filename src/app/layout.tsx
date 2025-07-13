@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { CONFIG } from '@/constants/config'
 import { Open_Sans } from 'next/font/google'
 import './globals.css'
 
@@ -9,7 +10,9 @@ const openSans = Open_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'Blocks Revit',
+  title: CONFIG.COMPANY_NAME,
+  description:
+    'Milhares de produtos reais digitalizados em BIM, os principais fabricantes estão na Blocks.',
 }
 
 export default function RootLayout({
